@@ -6,6 +6,7 @@
 	<div class="dashboard">
 		
 		<div class="video-section">
+			<!--
 			<div class="video-card">
 				<div class="video-header">
 					<span class="video-icon">Juli 2025 🎬</span>
@@ -77,16 +78,18 @@
 					Dein Browser unterstützt das Video-Tag nicht.
 				</video>
 			</div>
+			-->
 			<div class="video-card">
 				<div class="video-header">
 					<span class="video-icon">Sommer 2022 🎬</span>
 				</div>
 				<video width="100%" height="auto" controls controlsList="nodownload" poster="sommerfest2022poster.png">
-					<source src="/api/video/2022" type="video/mp4" />
+					<source src="/netlify/functions/video-2022" type="video/mp4" />
 					<track kind="captions" src="captions.vtt" srclang="de" label="Deutsch" />
 					Dein Browser unterstützt das Video-Tag nicht.
 				</video>
 			</div>
+			<!--
 			<div class="video-card">
 				<div class="video-header">
 					<span class="video-icon">Herbst 2021 🎬</span>
@@ -107,6 +110,7 @@
 					Dein Browser unterstützt das Video-Tag nicht.
 				</video>
 			</div>
+			-->
 		</div>
 	</div>
 {/if}
