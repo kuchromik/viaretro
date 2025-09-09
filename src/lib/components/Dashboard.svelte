@@ -4,176 +4,108 @@
 
 {#if $user}
 	<div class="dashboard">
+		
 		<div class="video-section">
 			<div class="video-card">
-				<a 
-					href="https://www.chromikoffsetdruck.de/UMS_2025.mp4" 
-					target="_blank" 
-					rel="noopener noreferrer"
-					class="video-link"
-				>
-					<div class="play-button">
-						<div class="play-icon">▶</div>
-					</div>
-					<div class="video-info">
-						<span class="video-title">Uni meets Stadt 2025</span>
-						<span class="video-subtitle">Click to watch video</span>
-					</div>
-					<div class="external-link-icon">🔗</div>
-				</a>
+				<div class="video-header">
+					<span class="video-icon">Juli 2025 🎬</span>
+				</div>
+				<video width="100%" height="auto" controls controlsList="nodownload">
+					<source src="/api/video/ums2025" type="video/mp4" />
+					<track kind="captions" src="captions.vtt" srclang="de" label="Deutsch" />
+					Dein Browser unterstützt das Video-Tag nicht.
+				</video>
+
 			</div>
 			<div class="video-card">
-				<a 
-					href="https://www.chromikoffsetdruck.de/SAK_2025.mp4" 
-					target="_blank" 
-					rel="noopener noreferrer"
-					class="video-link"
-				>
-					<div class="play-button">
-						<div class="play-icon">▶</div>
-					</div>
-					<div class="video-info">
-						<span class="video-title">Semesterabschlusskonzert WiSe 2024/2025</span>
-						<span class="video-subtitle">Click to watch video</span>
-					</div>
-					<div class="external-link-icon">🔗</div>
-				</a>
+				<div class="video-header">
+					<span class="video-icon">Januar 2025 🎬</span>
+				</div>
+				<video width="100%" height="auto" controls controlsList="nodownload" poster="sak2025poster.png">
+					<source src="/api/video/sak2025" type="video/mp4" />
+					<track kind="captions" src="captions.vtt" srclang="de" label="Deutsch" />
+					Dein Browser unterstützt das Video-Tag nicht.
+				</video>
 			</div>
 			<div class="video-card">
-				<a 
-					href="https://www.chromikoffsetdruck.de/UMS_2024.mp4" 
-					target="_blank" 
-					rel="noopener noreferrer"
-					class="video-link"
-				>
-					<div class="play-button">
-						<div class="play-icon">▶</div>
-					</div>
-					<div class="video-info">
-						<span class="video-title">Uni meets Stadt 2024</span>
-						<span class="video-subtitle">Click to watch video</span>
-					</div>
-					<div class="external-link-icon">🔗</div>
-				</a>
+				<div class="video-header">
+					<span class="video-icon">Juni 2024 🎬</span>
+				</div>
+				<video width="100%" height="auto" controls controlsList="nodownload">
+					<source src="/api/video/ums2024" type="video/mp4" />
+					<track kind="captions" src="captions.vtt" srclang="de" label="Deutsch" />
+					Dein Browser unterstützt das Video-Tag nicht.
+				</video>
 			</div>
 			<div class="video-card">
-				<a 
-					href="https://www.chromikoffsetdruck.de/SAK_2024_1.mp4" 
-					target="_blank" 
-					rel="noopener noreferrer"
-					class="video-link"
-				>
-					<div class="play-button">
-						<div class="play-icon">▶</div>
-					</div>
-					<div class="video-info">
-						<span class="video-title">Semesterabschlusskonzert WiSe 2023/2024</span>
-						<span class="video-subtitle">Click to watch video</span>
-					</div>
-					<div class="external-link-icon">🔗</div>
-				</a>
+				<div class="video-header">
+					<span class="video-icon">Januar 2024 🎬</span>
+				</div>
+				<video width="100%" height="auto" controls controlsList="nodownload" poster="sak2024poster.png">
+					<source src="/api/video/sak2024" type="video/mp4" />
+					<track kind="captions" src="captions.vtt" srclang="de" label="Deutsch" />
+					Dein Browser unterstützt das Video-Tag nicht.
+				</video>
 			</div>
 			<div class="video-card">
-				<a 
-					href="https://www.chromikoffsetdruck.de/UMS_2023_aftershow.mp4" 
-					target="_blank" 
-					rel="noopener noreferrer"
-					class="video-link"
-				>
-					<div class="play-button">
-						<div class="play-icon">▶</div>
-					</div>
-					<div class="video-info">
-						<span class="video-title">Uni meets Stadt 2023</span>
-						<span class="video-subtitle">Click to watch video</span>
-					</div>
-					<div class="external-link-icon">🔗</div>
-				</a>
+				<div class="video-header">
+					<span class="video-icon">Juni 2023 🎬</span>
+				</div>
+				<video width="100%" height="auto" controls controlsList="nodownload" poster="ums2023poster.png">
+					<source src="/api/video/ums2023" type="video/mp4" />
+					<track kind="captions" src="captions.vtt" srclang="de" label="Deutsch" />
+					Dein Browser unterstützt das Video-Tag nicht.
+				</video>
 			</div>
 			<div class="video-card">
-				<a 
-					href="https://www.chromikoffsetdruck.de/TheLordOfTheDance.mp4" 
-					target="_blank" 
-					rel="noopener noreferrer"
-					class="video-link"
-				>
-					<div class="play-button">
-						<div class="play-icon">▶</div>
-					</div>
-					<div class="video-info">
-						<span class="video-title">Semesterabschlusskonzert WiSe 2022/2023</span>
-						<span class="video-subtitle">The Lord of the Dance</span>
-					</div>
-					<div class="external-link-icon">🔗</div>
-				</a>
+				<div class="video-header">
+					<span class="video-icon">Januar 2023 🎬</span>
+				</div>
+				<video width="100%" height="auto" controls controlsList="nodownload" poster="lordofthedance_poster.png">
+					<source src="/api/video/sak2023_1" type="video/mp4" />
+					<track kind="captions" src="captions.vtt" srclang="de" label="Deutsch" />
+					Dein Browser unterstützt das Video-Tag nicht.
+				</video>
 			</div>
 			<div class="video-card">
-				<a 
-					href="https://www.chromikoffsetdruck.de/TheGreatestShowman.mp4" 
-					target="_blank" 
-					rel="noopener noreferrer"
-					class="video-link"
-				>
-					<div class="play-button">
-						<div class="play-icon">▶</div>
-					</div>
-					<div class="video-info">
-						<span class="video-title">Semesterabschlusskonzert WiSe 2022/2023</span>
-						<span class="video-subtitle">The Greatest Showman</span>
-					</div>
-					<div class="external-link-icon">🔗</div>
-				</a>
+				<div class="video-header">
+					<span class="video-icon">Januar 2023 🎬</span>
+				</div>
+				<video width="100%" height="auto" controls controlsList="nodownload" poster="thegreatestshowman_poster.png">
+					<source src="/api/video/sak2023_2" type="video/mp4" />
+					<track kind="captions" src="captions.vtt" srclang="de" label="Deutsch" />
+					Dein Browser unterstützt das Video-Tag nicht.
+				</video>
 			</div>
 			<div class="video-card">
-				<a 
-					href="https://www.chromikoffsetdruck.de/Viaphoniker_Sommerfest_2022.mp4" 
-					target="_blank" 
-					rel="noopener noreferrer"
-					class="video-link"
-				>
-					<div class="play-button">
-						<div class="play-icon">▶</div>
-					</div>
-					<div class="video-info">
-						<span class="video-title">Sommerfest 2022</span>
-						<span class="video-subtitle">Click to watch video</span>
-					</div>
-					<div class="external-link-icon">🔗</div>
-				</a>
-			</div>	
-			<div class="video-card">
-				<a 
-					href="https://www.chromikoffsetdruck.de/Viaphoniker_PoetrySlam.mp4" 
-					target="_blank" 
-					rel="noopener noreferrer"
-					class="video-link"
-				>
-					<div class="play-button">
-						<div class="play-icon">▶</div>
-					</div>
-					<div class="video-info">
-						<span class="video-title">Poetry Slam November 2021</span>
-						<span class="video-subtitle">Click to watch video</span>
-					</div>
-					<div class="external-link-icon">🔗</div>
-				</a>
+				<div class="video-header">
+					<span class="video-icon">Sommer 2022 🎬</span>
+				</div>
+				<video width="100%" height="auto" controls controlsList="nodownload" poster="sommerfest2022poster.png">
+					<source src="/api/video/2022" type="video/mp4" />
+					<track kind="captions" src="captions.vtt" srclang="de" label="Deutsch" />
+					Dein Browser unterstützt das Video-Tag nicht.
+				</video>
 			</div>
 			<div class="video-card">
-				<a 
-					href="https://www.chromikoffsetdruck.de/ViaphonikerTopTen.mp4" 
-					target="_blank" 
-					rel="noopener noreferrer"
-					class="video-link"
-				>
-					<div class="play-button">
-						<div class="play-icon">▶</div>
-					</div>
-					<div class="video-info">
-						<span class="video-title">Top Ten Sommer 2021</span>
-						<span class="video-subtitle">Click to watch video</span>
-					</div>
-					<div class="external-link-icon">🔗</div>
-				</a>
+				<div class="video-header">
+					<span class="video-icon">Herbst 2021 🎬</span>
+				</div>
+				<video width="100%" height="auto" controls controlsList="nodownload" poster="poetry2021poster.png">
+					<source src="/api/video/poetry2021" type="video/mp4" />
+					<track kind="captions" src="captions.vtt" srclang="de" label="Deutsch" />
+					Dein Browser unterstützt das Video-Tag nicht.
+				</video>
+			</div>
+			<div class="video-card">
+				<div class="video-header">
+					<span class="video-icon">Sommer 2021 🎬</span>
+				</div>
+				<video width="100%" height="auto" controls controlsList="nodownload" poster="topten2021poster.png">
+					<source src="/api/video/topten2021" type="video/mp4" />
+					<track kind="captions" src="captions.vtt" srclang="de" label="Deutsch" />
+					Dein Browser unterstützt das Video-Tag nicht.
+				</video>
 			</div>
 		</div>
 	</div>
